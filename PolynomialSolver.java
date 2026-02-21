@@ -13,7 +13,7 @@ public class PolynomialSolver {
 
             for (int j = 0; j < k; j++) {
                 if (i != j) {
-                    BigInteger numerator = x.get(j).negate();   // (0 - xj)
+                    BigInteger numerator = x.get(j).negate();   
                     BigInteger denominator = x.get(i).subtract(x.get(j));
                     term = term.multiply(numerator).divide(denominator);
                 }
@@ -71,3 +71,4 @@ public class PolynomialSolver {
     }
 
 }
+
