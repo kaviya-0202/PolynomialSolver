@@ -28,7 +28,7 @@ public class PolynomialSolver {
     public static void main(String[] args) {
 
         try {
-            // 🔥 Read from input.json instead of terminal
+        
             Scanner sc = new Scanner(new File("input.json"));
             StringBuilder input = new StringBuilder();
 
@@ -69,4 +69,5 @@ public class PolynomialSolver {
             System.out.println("Error: " + e.getMessage());
         }
     }
+
 }
